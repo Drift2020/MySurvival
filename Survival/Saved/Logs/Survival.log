@@ -751,3 +751,302 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.05.11-13.20.14:335][691]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
 [2022.05.11-13.20.14:385][692]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
 [2022.05.11-13.20.30:918][741]LogSlate: Took 0.024763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.05.11-13.20.51:986][555]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.11-13.20.51:998][555]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.11-13.20.52:011][556]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.05.11-13.21.04:988][ 90]LogContentBrowser: Attempting asset rename: NewFolder -> Control
+[2022.05.11-13.21.04:988][ 90]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.11-13.21.10:250][371]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.11-13.21.10:269][371]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.11-13.21.10:283][372]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.05.11-13.21.22:783][821]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2022.05.11-13.21.22:783][821]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.11-13.21.39:965][298]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Program/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack)
+[2022.05.11-13.21.40:764][298]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2022.05.11-13.21.40:788][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+[2022.05.11-13.21.40:789][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset"
+[2022.05.11-13.21.40:790][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Maps/ThirdPersonMap.umap" to "F:/Projects/Git/MySurvival/Survival/Content/ThirdPerson/Maps/ThirdPersonMap.umap"
+[2022.05.11-13.21.40:807][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uasset"
+[2022.05.11-13.21.40:811][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset"
+[2022.05.11-13.21.40:813][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ.uasset"
+[2022.05.11-13.21.40:813][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset"
+[2022.05.11-13.21.40:814][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset"
+[2022.05.11-13.21.40:815][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset"
+[2022.05.11-13.21.40:816][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR.uasset"
+[2022.05.11-13.21.40:817][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61.uasset"
+[2022.05.11-13.21.40:818][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset"
+[2022.05.11-13.21.40:819][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1.uasset"
+[2022.05.11-13.21.40:819][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/43/HYQWORMY4JDQ5X3OKZXFLC.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/43/HYQWORMY4JDQ5X3OKZXFLC.uasset"
+[2022.05.11-13.21.40:820][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C.uasset"
+[2022.05.11-13.21.40:821][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LN/30UBDLYFFA5ZR7U4W4L4GG.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LN/30UBDLYFFA5ZR7U4W4L4GG.uasset"
+[2022.05.11-13.21.40:822][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset"
+[2022.05.11-13.21.40:823][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96.uasset"
+[2022.05.11-13.21.40:824][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/EY/87SHEJN5UBEAN2K5OV1G6R.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/EY/87SHEJN5UBEAN2K5OV1G6R.uasset"
+[2022.05.11-13.21.40:825][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06.uasset"
+[2022.05.11-13.21.40:826][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/S1/DXUWD12MD3HRWVVXX076BY.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/S1/DXUWD12MD3HRWVVXX076BY.uasset"
+[2022.05.11-13.21.40:826][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/R1/TS5OQ5CRUWFZYL1ZQ7I416.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/R1/TS5OQ5CRUWFZYL1ZQ7I416.uasset"
+[2022.05.11-13.21.40:827][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW.uasset"
+[2022.05.11-13.21.40:828][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset"
+[2022.05.11-13.21.40:829][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset"
+[2022.05.11-13.21.40:830][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF.uasset"
+[2022.05.11-13.21.40:831][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset"
+[2022.05.11-13.21.40:832][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P.uasset"
+[2022.05.11-13.21.40:832][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/J7/N10XDC9G27EMLS5AGZ6AVV.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/J7/N10XDC9G27EMLS5AGZ6AVV.uasset"
+[2022.05.11-13.21.40:833][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset"
+[2022.05.11-13.21.40:834][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8.uasset"
+[2022.05.11-13.21.40:835][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO.uasset"
+[2022.05.11-13.21.40:835][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset"
+[2022.05.11-13.21.40:836][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL.uasset"
+[2022.05.11-13.21.40:837][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04.uasset"
+[2022.05.11-13.21.40:838][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y.uasset"
+[2022.05.11-13.21.40:839][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN.uasset"
+[2022.05.11-13.21.40:840][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F.uasset"
+[2022.05.11-13.21.40:840][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset"
+[2022.05.11-13.21.40:841][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q.uasset"
+[2022.05.11-13.21.40:842][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR.uasset"
+[2022.05.11-13.21.40:843][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset"
+[2022.05.11-13.21.40:843][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/SY/Z4CTQ4LG3YV10EKPD0UE8Q.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/SY/Z4CTQ4LG3YV10EKPD0UE8Q.uasset"
+[2022.05.11-13.21.40:845][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/4/VW/TY7TSUER9KKGHX2BMKSL0L.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/4/VW/TY7TSUER9KKGHX2BMKSL0L.uasset"
+[2022.05.11-13.21.40:846][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset"
+[2022.05.11-13.21.40:847][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/TK/PIQ0B2FNWR15P52TECP27A.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/TK/PIQ0B2FNWR15P52TECP27A.uasset"
+[2022.05.11-13.21.40:849][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/D8/3MZ6M1DB94VN44C87D65WR.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/D8/3MZ6M1DB94VN44C87D65WR.uasset"
+[2022.05.11-13.21.40:850][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/7N/FDH7Y28CQFXDK8P6MM1HXM.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/7N/FDH7Y28CQFXDK8P6MM1HXM.uasset"
+[2022.05.11-13.21.40:851][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/GP/22PD314FCWY4ZK61DE3XZC.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/GP/22PD314FCWY4ZK61DE3XZC.uasset"
+[2022.05.11-13.21.40:852][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/KN/KHZG97SS6AL73U7AXDWH6J.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/KN/KHZG97SS6AL73U7AXDWH6J.uasset"
+[2022.05.11-13.21.40:853][298]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/FR/LBG6LPN5JCL3FMVSI2CK6R.uasset" to "F:/Projects/Git/MySurvival/Survival/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/FR/LBG6LPN5JCL3FMVSI2CK6R.uasset"
+[2022.05.11-13.21.43:623][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter" FILE="F:/Projects/Git/MySurvival/Survival/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2022.05.11-13.21.44:097][298]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.033194 seconds
+[2022.05.11-13.21.44:231][298]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2022.05.11-13.21.44:231][298]LogSavePackage: Moving 'F:/Projects/Git/MySurvival/Survival/Saved/BP_ThirdPersonCharacter51F0255E4A3BB6E53856389B3EA757EF.tmp' to 'F:/Projects/Git/MySurvival/Survival/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2022.05.11-13.21.44:268][298]LogLinker: Warning: Failed to load '/Game/ThirdPerson/Blueprints': Can't find file.
+[2022.05.11-13.21.44:268][298]LogLinker: Warning: Failed to load '/Game/ThirdPerson/Blueprints': Can't find file.
+[2022.05.11-13.21.44:268][298]LogUObjectGlobals: Warning: Failed to find object 'Object None./Game/ThirdPerson/Blueprints'
+[2022.05.11-13.21.44:350][298]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2022.05.11-13.21.45:213][298]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.05.11-13.21.46:536][338]LogSlate: Window 'Add Content to the Project' being destroyed
+[2022.05.11-13.21.52:448][616]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.05.11-13.21.53:383][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2022.05.11-13.21.55:521][616]LogSlate: Window 'Delete Assets' being destroyed
+[2022.05.11-13.21.55:591][616]LogUObjectGlobals: Force Deleting 21 Package(s):
+	Asset Name: /Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin
+	Asset Type: SkeletalMesh
+	Asset Name: /Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton.SK_Mannequin_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01.T_ML_Aluminum01
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.T_ML_Aluminum01_N
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N.T_ML_Rubber_Blue_01_N
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA.T_UE4_Mannequin_MAT_MASKA
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals.T_UE4_Mannequin__normals
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/Mannequin_UE4/Textures/T_UELogo_Mask.T_UELogo_Mask
+	Asset Type: Texture2D
+[2022.05.11-13.21.56:022][616]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.05.11-13.21.56:046][616]LogMaterial: Warning: [AssetLog] F:\Projects\Git\MySurvival\Survival\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.05.11-13.21.56:052][616]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.05.11-13.21.56:053][616]LogMaterial: Warning: [AssetLog] F:\Projects\Git\MySurvival\Survival\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.05.11-13.21.56:058][616]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.05.11-13.21.56:060][616]LogMaterial: Warning: [AssetLog] F:\Projects\Git\MySurvival\Survival\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.05.11-13.21.56:065][616]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.05.11-13.21.56:067][616]LogMaterial: Warning: [AssetLog] F:\Projects\Git\MySurvival\Survival\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.05.11-13.21.56:072][616]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.05.11-13.21.56:074][616]LogMaterial: Warning: [AssetLog] F:\Projects\Git\MySurvival\Survival\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.05.11-13.21.56:079][616]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.05.11-13.21.56:080][616]LogMaterial: Warning: [AssetLog] F:\Projects\Git\MySurvival\Survival\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.05.11-13.21.56:085][616]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.05.11-13.21.56:087][616]LogMaterial: Warning: [AssetLog] F:\Projects\Git\MySurvival\Survival\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.05.11-13.21.56:092][616]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.05.11-13.21.56:094][616]LogMaterial: Warning: [AssetLog] F:\Projects\Git\MySurvival\Survival\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.05.11-13.21.56:099][616]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.05.11-13.21.56:100][616]LogMaterial: Warning: [AssetLog] F:\Projects\Git\MySurvival\Survival\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.05.11-13.21.56:139][616]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SK_Mannequin) ...
+[2022.05.11-13.21.56:175][616]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SK_Mannequin) ...
+[2022.05.11-13.21.56:213][616]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SK_Mannequin) ...
+[2022.05.11-13.21.56:252][616]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SK_Mannequin) ...
+[2022.05.11-13.21.56:292][616]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SK_Mannequin) ...
+[2022.05.11-13.21.56:727][616]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2022.05.11-13.21.59:942][616]LogShaderCompilers: Display: ================================================
+[2022.05.11-13.21.59:942][616]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.11-13.21.59:942][616]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.05.11-13.21.59:942][616]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.05.11-13.21.59:942][616]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.05.11-13.21.59:942][616]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.05.11-13.21.59:942][616]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.05.11-13.21.59:942][616]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.05.11-13.21.59:942][616]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.05.11-13.21.59:942][616]LogShaderCompilers: Display: ================================================
+[2022.05.11-13.22.00:031][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2022.05.11-13.22.00:063][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.05.11-13.22.00:091][616]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.05.11-13.22.04:205][822]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.05.11-13.22.04:538][822]LogObjectTools: Deleting 1 worlds: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2022.05.11-13.22.04:549][822]LogObjectTools: Currently 5 active worlds: /Game/NewMap.NewMap, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3
+[2022.05.11-13.22.04:630][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.05.11-13.22.23:495][822]LogSlate: Window 'Delete Assets' being destroyed
+[2022.05.11-13.22.25:544][822]LogUObjectGlobals: Force Deleting 63 Package(s):
+	Asset Name: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+	Asset Type: Blueprint
+	Asset Name: /Game/LevelPrototyping/Materials/MF_ProcGrid.MF_ProcGrid
+	Asset Type: MaterialFunction
+	Asset Name: /Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.MI_PrototypeGrid_Gray
+	Asset Type: MaterialInstanceConstant
+	Asset Name: /Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_02.MI_PrototypeGrid_Gray_02
+	Asset Type: MaterialInstanceConstant
+	Asset Name: /Game/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.MI_PrototypeGrid_TopDark
+	Asset Type: MaterialInstanceConstant
+	Asset Name: /Game/LevelPrototyping/Materials/MI_Solid_Blue.MI_Solid_Blue
+	Asset Type: MaterialInstanceConstant
+	Asset Name: /Game/LevelPrototyping/Materials/M_PrototypeGrid.M_PrototypeGrid
+	Asset Type: Material
+	Asset Name: /Game/LevelPrototyping/Materials/M_Solid.M_Solid
+	Asset Type: Material
+	Asset Name: /Game/LevelPrototyping/Meshes/SM_ChamferCube.SM_ChamferCube
+	Asset Type: StaticMesh
+	Asset Name: /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+	Asset Type: StaticMesh
+[2022.05.11-13.22.26:099][822]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LevelPrototyping/Meshes/SM_ChamferCube) ...
+[2022.05.11-13.22.26:387][822]LogMaterial: Display: Missing cached shadermap for M_PrototypeGrid in PCD3D_SM5, Default, SM5 (DDC key hash: 47BF586FF433CF9BC57F3450D898050D65193AFA), compiling. 
+[2022.05.11-13.22.26:388][822]LogMaterial: Warning: [AssetLog] F:\Projects\Git\MySurvival\Survival\Content\LevelPrototyping\Materials\M_PrototypeGrid.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+
+[2022.05.11-13.22.26:406][822]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LevelPrototyping/Meshes/SM_Ramp) ...
+[2022.05.11-13.22.26:520][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.05.11-13.22.28:490][822]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-13.22.28:490][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-13.22.43:018][822]LogWorld: Warning: UWorld::CleanupWorld called twice or called without InitWorld called first.
+[2022.05.11-13.22.43:018][822]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-13.22.43:019][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-13.22.43:142][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.05.11-13.22.43:171][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.05.11-13.22.43:198][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.05.11-13.22.44:035][825]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: FA27F005F0035B776FC2858D593EFAFCE7581E4B), compiling. 
+[2022.05.11-13.22.44:459][826]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SKM_Quinn) ...
+[2022.05.11-13.22.45:596][828]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2022.05.11-13.22.45:597][828]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2022.05.11-13.22.47:117][851]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SKM_Manny_Simple) ...
+[2022.05.11-13.22.56:789][176]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.05.11-13.22.56:828][176]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.05.11-13.22.56:836][176]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.05.11-13.22.56:869][178]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.05.11-13.23.01:035][323]LogContentBrowser: Attempting asset rename: NewBlueprint -> MainMode
+[2022.05.11-13.23.01:059][323]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.05.11-13.23.11:893][708]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Control/MainMode.MainMode
+[2022.05.11-13.23.11:893][708]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-13.23.13:181][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Control/MainMode" FILE="F:/Projects/Git/MySurvival/Survival/Content/Control/MainMode.uasset" SILENT=true
+[2022.05.11-13.23.13:184][722]LogSavePackage: Moving output files for package: /Game/Control/MainMode
+[2022.05.11-13.23.13:184][722]LogSavePackage: Moving 'F:/Projects/Git/MySurvival/Survival/Saved/MainMode3FB8F0D24B8862033843E4BE3C74487A.tmp' to 'F:/Projects/Git/MySurvival/Survival/Content/Control/MainMode.uasset'
+[2022.05.11-13.23.13:204][722]AssetCheck: New page: Asset Save: MainMode
+[2022.05.11-13.23.13:204][722]LogContentValidation: Display: Validating Blueprint /Game/Control/MainMode.MainMode
+[2022.05.11-13.23.25:379][151]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.05.11-13.24.03:615][889]BlueprintLog: New page: Compile MainMode
+[2022.05.11-13.24.03:737][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.05.11-13.24.05:795][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Control/MainMode" FILE="F:/Projects/Git/MySurvival/Survival/Content/Control/MainMode.uasset" SILENT=true
+[2022.05.11-13.24.05:798][957]LogSavePackage: Moving output files for package: /Game/Control/MainMode
+[2022.05.11-13.24.05:798][957]LogSavePackage: Moving 'F:/Projects/Git/MySurvival/Survival/Saved/MainMode926821F345B214B49A79CB935DE137F8.tmp' to 'F:/Projects/Git/MySurvival/Survival/Content/Control/MainMode.uasset'
+[2022.05.11-13.24.05:815][957]AssetCheck: New page: Asset Save: MainMode
+[2022.05.11-13.24.05:815][957]LogContentValidation: Display: Validating Blueprint /Game/Control/MainMode.MainMode
+[2022.05.11-13.24.06:895][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTPCharacterBP" FILE="F:/Projects/Git/MySurvival/Survival/Content/MyTPCharacterBP.uasset" SILENT=true
+[2022.05.11-13.24.06:898][994]LogSavePackage: Moving output files for package: /Game/MyTPCharacterBP
+[2022.05.11-13.24.06:899][994]LogSavePackage: Moving 'F:/Projects/Git/MySurvival/Survival/Saved/MyTPCharacterBP895119704E295CDE14EE6AB311C9C985.tmp' to 'F:/Projects/Git/MySurvival/Survival/Content/MyTPCharacterBP.uasset'
+[2022.05.11-13.24.06:917][994]AssetCheck: New page: Asset Save: MyTPCharacterBP
+[2022.05.11-13.24.06:917][994]LogContentValidation: Display: Validating Blueprint /Game/MyTPCharacterBP.MyTPCharacterBP
+[2022.05.11-13.24.09:198][ 70]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.05.11-13.24.11:033][132]LogSlate: Took 0.004217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.11-13.24.11:774][170]LogSlate: Took 0.000712 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.05.11-13.24.14:235][270]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2022.05.11-13.24.14:326][270]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.05.11-13.24.34:668][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTPCharacterBP" FILE="F:/Projects/Git/MySurvival/Survival/Content/MyTPCharacterBP.uasset" SILENT=true
+[2022.05.11-13.24.34:672][104]LogSavePackage: Moving output files for package: /Game/MyTPCharacterBP
+[2022.05.11-13.24.34:672][104]LogSavePackage: Moving 'F:/Projects/Git/MySurvival/Survival/Saved/MyTPCharacterBP7F86301E471644C01DEE51939575D750.tmp' to 'F:/Projects/Git/MySurvival/Survival/Content/MyTPCharacterBP.uasset'
+[2022.05.11-13.24.34:692][104]AssetCheck: New page: Asset Save: MyTPCharacterBP
+[2022.05.11-13.24.34:692][104]LogContentValidation: Display: Validating Blueprint /Game/MyTPCharacterBP.MyTPCharacterBP
+[2022.05.11-13.24.35:397][131]BlueprintLog: New page: Compile MyTPCharacterBP
+[2022.05.11-13.24.35:566][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
