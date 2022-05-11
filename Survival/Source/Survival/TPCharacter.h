@@ -10,10 +10,19 @@ UCLASS()
 class SURVIVAL_API ATPCharacter : public ACharacter
 {
 	GENERATED_BODY()
+	bool bisDead;
 
 public:
 	// Sets default values for this character's properties
 	ATPCharacter();
+	void SetIsDead(bool value)
+	{
+		bisDead = value;
+	}
+	bool GetIsDead()
+	{
+		return bisDead;
+	}
 
 protected:
 	// Called when the game starts or when spawned
