@@ -10,19 +10,20 @@ UCLASS()
 class SURVIVAL_API ATPCharacter : public ACharacter
 {
 	GENERATED_BODY()
-	bool bisDead;
+	
 
 public:
 	// Sets default values for this character's properties
 	ATPCharacter();
-	void SetIsDead(bool value)
-	{
-		bisDead = value;
-	}
-	bool GetIsDead()
-	{
-		return bisDead;
-	}
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+	class USpringArmComponent* CameraBoom;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bisDead;
+
+	void SetIsDead(bool value);
+	bool GetIsDead();
 
 protected:
 	// Called when the game starts or when spawned

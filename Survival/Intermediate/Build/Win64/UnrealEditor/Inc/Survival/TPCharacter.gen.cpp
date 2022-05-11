@@ -28,6 +28,12 @@ void EmptyLinkFunctionForGeneratedCodeTPCharacter() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_bisDead_MetaData[];
+#endif
+		static void NewProp_bisDead_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bisDead;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -42,6 +48,20 @@ void EmptyLinkFunctionForGeneratedCodeTPCharacter() {}
 		{ "ModuleRelativePath", "TPCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPCharacter_Statics::NewProp_bisDead_MetaData[] = {
+		{ "Category", "TPCharacter" },
+		{ "ModuleRelativePath", "TPCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_ATPCharacter_Statics::NewProp_bisDead_SetBit(void* Obj)
+	{
+		((ATPCharacter*)Obj)->bisDead = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATPCharacter_Statics::NewProp_bisDead = { "bisDead", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ATPCharacter), &Z_Construct_UClass_ATPCharacter_Statics::NewProp_bisDead_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATPCharacter_Statics::NewProp_bisDead_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATPCharacter_Statics::NewProp_bisDead_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATPCharacter_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPCharacter_Statics::NewProp_bisDead,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATPCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATPCharacter>::IsAbstract,
 	};
@@ -51,11 +71,11 @@ void EmptyLinkFunctionForGeneratedCodeTPCharacter() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ATPCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ATPCharacter_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ATPCharacter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ATPCharacter_Statics::Class_MetaDataParams))
@@ -78,9 +98,9 @@ void EmptyLinkFunctionForGeneratedCodeTPCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Survival_Source_Survival_TPCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ATPCharacter, ATPCharacter::StaticClass, TEXT("ATPCharacter"), &Z_Registration_Info_UClass_ATPCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATPCharacter), 1665281161U) },
+		{ Z_Construct_UClass_ATPCharacter, ATPCharacter::StaticClass, TEXT("ATPCharacter"), &Z_Registration_Info_UClass_ATPCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATPCharacter), 2979960094U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Survival_Source_Survival_TPCharacter_h_2663617181(TEXT("/Script/Survival"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Survival_Source_Survival_TPCharacter_h_2744543686(TEXT("/Script/Survival"),
 		Z_CompiledInDeferFile_FID_Survival_Source_Survival_TPCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Survival_Source_Survival_TPCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
