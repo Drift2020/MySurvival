@@ -23,6 +23,12 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\Survival">
       <UniqueIdentifier>{C06334BC-721B-3C6A-B58F-DEDCFA61F16E}</UniqueIdentifier>
     </Filter>
@@ -39,6 +45,12 @@
       <Filter>Source\Survival</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Survival\SurvivalGameModeBase.h">
+      <Filter>Source\Survival</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Survival\TPCharacter.cpp">
+      <Filter>Source\Survival</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Survival\TPCharacter.h">
       <Filter>Source\Survival</Filter>
     </ClInclude>
   </ItemGroup>
