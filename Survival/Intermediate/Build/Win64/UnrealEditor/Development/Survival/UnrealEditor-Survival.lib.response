@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Survival.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Projects\Git\MySurvival\Survival\Intermediate\Build\Win64\SurvivalEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"F:\Projects\Git\MySurvival\Survival\Intermediate\Build\Win64\UnrealEditor\Development\Survival\Survival.cpp.obj"
+"F:\Projects\Git\MySurvival\Survival\Intermediate\Build\Win64\UnrealEditor\Development\Survival\SurvivalGameModeBase.cpp.obj"
+"F:\Projects\Git\MySurvival\Survival\Intermediate\Build\Win64\UnrealEditor\Development\Survival\Survival.init.gen.cpp.obj"
+"F:\Projects\Git\MySurvival\Survival\Intermediate\Build\Win64\UnrealEditor\Development\Survival\SurvivalGameModeBase.gen.cpp.obj"
+"F:\Projects\Git\MySurvival\Survival\Intermediate\Build\Win64\UnrealEditor\Development\Survival\Default.rc2.res"
+/OUT:"F:\Projects\Git\MySurvival\Survival\Intermediate\Build\Win64\UnrealEditor\Development\Survival\UnrealEditor-Survival.lib"
