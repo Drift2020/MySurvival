@@ -1,0 +1,4 @@
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\linko\AppData\Local\UnrealBuildTool\Log.txt
+UnrealBuildTool : error : Unable to build while Live Coding is active. Exit the editor and game, or press Ctrl+Alt+F11 if iterating on code in the editor or game
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: выход из команды "D:\Program\UE_5.0\Engine\Build\BatchFiles\Build.bat SurvivalEditor Win64 Development -Project="F:\Projects\Git\MySurvival\Survival\Survival.uproject" -WaitMutex -FromMsBuild" с кодом 6.
