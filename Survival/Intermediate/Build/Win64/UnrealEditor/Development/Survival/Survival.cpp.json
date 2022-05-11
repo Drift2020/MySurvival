@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "f:\\projects\\git\\mysurvival\\survival\\source\\survival\\survival.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\projects\\git\\mysurvival\\survival\\intermediate\\build\\win64\\survivaleditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "f:\\projects\\git\\mysurvival\\survival\\intermediate\\build\\win64\\unrealeditor\\development\\survival\\definitions.survival.h",
+            "f:\\projects\\git\\mysurvival\\survival\\source\\survival\\survival.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
