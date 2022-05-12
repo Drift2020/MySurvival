@@ -1,19 +1,9 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\linko\AppData\Local\UnrealBuildTool\Log.txt
-  Parsing headers for Survival
-    Running UnrealHeaderTool "F:\Projects\Git\MySurvival\Survival\Survival.uproject" "F:\Projects\Git\MySurvival\Survival\Intermediate\Build\Win64\Survival\DebugGame\Survival.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\linko\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for Survival in 1.4217425 seconds
   Building Survival...
-  Using Visual Studio 2019 14.29.30143 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Using Visual Studio 2022 14.31.31107 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
     Executing up to 6 processes, one per physical core
-    Requested 1.5 GB free memory per action, 4.61 GB available: limiting max parallel actions to 3
-  Building 5 actions with 3 processes...
-  [1/5] Compile Survival.init.gen.cpp
-  [2/5] Compile TPCharacter.gen.cpp
-  [3/5] Compile TPCharacter.cpp
-  [4/5] Link Survival-Win64-DebugGame.exe
-     Создается библиотека F:\Projects\Git\MySurvival\Survival\Binaries\Win64\Survival-Win64-DebugGame.lib и объект F:\Projects\Git\MySurvival\Survival\Binaries\Win64\Survival-Win64-DebugGame.exp
-  [5/5] WriteMetadata Survival-Win64-DebugGame.target
-  Total time in Parallel executor: 139.58 seconds
-  Total execution time: 142.28 seconds
+    Requested 1.5 GB free memory per action, 5.25 GB available: limiting max parallel actions to 3
+  Building 3 actions with 3 processes...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): warning MSB5021: Terminating the task executable "cmd" and its child processes because the build was canceled.

@@ -11,6 +11,7 @@ class SURVIVAL_API ATPCharacter : public ACharacter
 {
 	GENERATED_BODY()
 	
+	UCharacterMovementComponent* CharacterMovement;
 
 public:
 	// Sets default values for this character's properties
@@ -19,10 +20,24 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	class USpringArmComponent* CameraBoom;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+	class UCameraComponent* FollowCamera;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool bisDead;
 
+	
+
+	void MoveForward(float Axis);
+
+	void MoveRight(float Axis);
+
+	void Jump();
+
+	void StopJumping();
+
 	void SetIsDead(bool value);
+
 	bool GetIsDead();
 
 protected:
