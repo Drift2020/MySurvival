@@ -38,7 +38,7 @@ ATPCharacter::ATPCharacter()
 	CharacterMovement->AirControl = 0.2f;
 	CharacterMovement->MaxWalkSpeed = 40.0f;
 	CharacterMovement->SetWalkableFloorAngle(60);
-	SetupPlayerInputComponent(InputComponent);
+
 	bisDead = false;
 }
 
@@ -76,8 +76,8 @@ void ATPCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ATPCharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ATPCharacter::StopJumping);
 
-	PlayerInputComponent->BindAxis("MoveForward", this, &ATPCharacter::MoveForward);
-	PlayerInputComponent->BindAxis("MoveRight", this, &ATPCharacter::MoveRight);
+	//PlayerInputComponent->BindAxis("MoveForward", this, &ATPCharacter::MoveForward);
+	// PlayerInputComponent->BindAxis("MoveRight", this, &ATPCharacter::MoveRight);
 }
 
 
